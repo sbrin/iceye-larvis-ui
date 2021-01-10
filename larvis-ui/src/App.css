@@ -1,0 +1,15 @@
+.lrvs-page {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.lrvs-page__header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.lrvs-page__logo {
+    margin: 0;
+    color: var(--color-primary);
+    font-size: var(--font-size-xl);
+}

@@ -1,0 +1,27 @@
+.lrvs-user {
+    text-align: right;
+    cursor: pointer;
+    position: relative;
+}
+
+.lrvs-user__label {
+    font-size: var(--font-size-sm);
+}
+
+.lrvs-user__id {
+    color: var(--color-primary)
+}
+.lrvs-user__popup {
+    position: absolute;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    text-align: center;
+    min-width: 200px;
+    background: var(--color-bg);
+    border: 1px solid var(--color-primary);
+    padding: 5px;
+}
+.lrvs-user:hover .lrvs-user__popup {
+    display: flex;
+}

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+:root {
+  --color-primary: #71B17F;
+  --color-primary-light: #9fef9F;
+  --color-bg: #090010;
+  --color-text: #E5E5E5;
+  --font-size-sm: 14px;
+  --font-size-md: 18px;
+  --font-size-lg: 24px;
+  --font-size-xl: 36px;
+  --font-size-xxl: 48px;
+  --font-primary: 'Rajdhani', sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-primary);
+  font-size: var(--font-size-md);
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

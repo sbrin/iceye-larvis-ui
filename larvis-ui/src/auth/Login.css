@@ -1,0 +1,25 @@
+.lrvs-form {
+    margin: 0 auto;
+    max-width: 320px;
+    text-align: center;
+}
+.lrvs-form__fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.lrvs-form__input {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-md);
+    padding: 5px 10px;
+    background: var(--color-bg);
+    color: var(--color-text);
+    border: 1px solid var(--color-primary);
+    margin: 5px;
+    border-radius: 4px;
+    flex-grow: 1;
+}
+.lrvs-form__input::placeholder {
+    color: var(--color-primary);
+}

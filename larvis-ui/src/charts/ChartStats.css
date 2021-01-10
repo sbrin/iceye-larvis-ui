@@ -1,0 +1,10 @@
+.lrvs-stats {
+
+}
+.lrvs-stats__label {
+    font-size: var(--font-size-md);
+}
+.lrvs-stats__value {
+    font-size: var(--font-size-xxl);
+
+}

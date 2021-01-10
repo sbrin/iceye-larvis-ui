@@ -1,0 +1,8 @@
+.lrvs-chart__title {
+    margin-top: 0;
+}
+.lrvs-chart__stats {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
